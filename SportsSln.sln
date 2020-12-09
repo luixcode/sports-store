@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsStore", "SportsStore\SportsStore.csproj", "{B2C13163-475B-4F1F-9DDD-25806F256655}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsStore.Tests", "SportsStore.Tests\SportsStore.Tests.csproj", "{E256D91E-DF07-4266-BA45-FE1301669D67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,17 @@ Global
 		{B2C13163-475B-4F1F-9DDD-25806F256655}.Release|x64.Build.0 = Release|Any CPU
 		{B2C13163-475B-4F1F-9DDD-25806F256655}.Release|x86.ActiveCfg = Release|Any CPU
 		{B2C13163-475B-4F1F-9DDD-25806F256655}.Release|x86.Build.0 = Release|Any CPU
+		{E256D91E-DF07-4266-BA45-FE1301669D67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E256D91E-DF07-4266-BA45-FE1301669D67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E256D91E-DF07-4266-BA45-FE1301669D67}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E256D91E-DF07-4266-BA45-FE1301669D67}.Debug|x64.Build.0 = Debug|Any CPU
+		{E256D91E-DF07-4266-BA45-FE1301669D67}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E256D91E-DF07-4266-BA45-FE1301669D67}.Debug|x86.Build.0 = Debug|Any CPU
+		{E256D91E-DF07-4266-BA45-FE1301669D67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E256D91E-DF07-4266-BA45-FE1301669D67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E256D91E-DF07-4266-BA45-FE1301669D67}.Release|x64.ActiveCfg = Release|Any CPU
+		{E256D91E-DF07-4266-BA45-FE1301669D67}.Release|x64.Build.0 = Release|Any CPU
+		{E256D91E-DF07-4266-BA45-FE1301669D67}.Release|x86.ActiveCfg = Release|Any CPU
+		{E256D91E-DF07-4266-BA45-FE1301669D67}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
