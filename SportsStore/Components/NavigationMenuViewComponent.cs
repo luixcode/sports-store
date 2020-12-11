@@ -4,14 +4,25 @@ using System.Linq;
 using System.Threading.Tasks;
 
 using Microsoft.AspNetCore.Mvc;
+using SportsStore.Models;
 
 namespace SportsStore.Components
 {
     public class NavigationMenuViewComponent : ViewComponent
     {
-        public string Invoke()
+        private IStoreRepository repository;
+
+        public NavigationMenuViewComponent(IStoreRepository repo)
         {
-            return "Hello from the Nav View Component";
+            repository = repo;
+        }
+
+        public IViewComponentResult Invoke()
+        {
+            return View(repository.Products
+                .Select(x => x.Category)
+                .Distinct()
+                .OrderBy(x => x));
         }
     }
 }
